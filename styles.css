@@ -1,0 +1,51 @@
+div.container {
+    background-color: blue;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1, h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+p {
+    padding-bottom: 15%;
+}
+
+div.sedans {
+    background-color: hsl(31, 77%, 52%);
+    width: 33%;
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+div.suvs {
+    background-color: hsl(184, 100%, 22%);
+    width: 33%;
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+div.luxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 33%;
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer {
+    background-color: brown;
+    font-family: 'Lexend Deca', sans-serif;
+}
