@@ -2,33 +2,48 @@ div.container {
     
     width: 60%;
     margin-left: 20%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     
 }
 
 div.bottom {
-    background-color: antiquewhite;
+    background-color: white;
     border-radius: 20px;
+    padding: 2px;
+    margin: 20px;
+    text-align: center;
+    font-size: 10px;
 }
 
 h1 {
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
-}
-
-h3 {
-    font-family: 'Lexend Deca', sans-serif;
-    mix-blend-mode: overlay; 
+    font-family: 'Big Shoulders Display', cursive;
+    
 }
 
 p {
     padding-bottom: 15%;
-    font-family: 'Big Shoulders Display', cursive;
-    color: white;
+    font-family: 'Lexend Deca', sans-serif; 
+    color: white; 
 }
+
+h3.sedans {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(31, 77%, 52%);
+}
+h3.suvs {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(184, 100%, 22%);
+}
+h3.luxury {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(179, 100%, 13%);
+}
+
+
 
 div.sedans {
     background-color: hsl(31, 77%, 52%);
@@ -56,4 +71,8 @@ div.luxury {
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
+}
+footer {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
 }
