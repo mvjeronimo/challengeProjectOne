@@ -1,5 +1,5 @@
 div.container {
-    background-color: blue;
+    
     width: 60%;
     margin-left: 20%;
     margin-top: 10%;
@@ -9,19 +9,32 @@ div.container {
     
 }
 
-h1, h3 {
+div.bottom {
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+h1 {
+    color: white;
     font-family: 'Lexend Deca', sans-serif;
-    
+}
+
+h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    mix-blend-mode: overlay; 
 }
 
 p {
     padding-bottom: 15%;
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
 }
 
 div.sedans {
     background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     width: 33%;
-    font-family: 'Big Shoulders Display', cursive;
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -30,7 +43,6 @@ div.sedans {
 div.suvs {
     background-color: hsl(184, 100%, 22%);
     width: 33%;
-    font-family: 'Big Shoulders Display', cursive;
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -38,14 +50,10 @@ div.suvs {
 
 div.luxury {
     background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     width: 33%;
-    font-family: 'Big Shoulders Display', cursive;
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
-}
-
-footer {
-    background-color: brown;
-    font-family: 'Lexend Deca', sans-serif;
 }
