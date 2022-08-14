@@ -76,3 +76,72 @@ footer {
     text-align: center;
     font-family: 'Lexend Deca', sans-serif;
 }
+
+@media screen and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    div.container {
+        
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.sedans {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 10px;
+        width: auto;
+        padding-top: 60px;
+    }
+    
+    img{
+        width: 140px;
+        padding-top: 30px;
+    }
+    h1 {
+        color: white;
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 100px;
+        padding-top: 80px;
+        
+    }
+    p {
+        padding-bottom: 10px;
+        padding-top: 60px;
+        font-family: 'Lexend Deca', sans-serif; 
+        font-size: 30px;
+        color: white;
+    }
+    h3{
+
+    }
+    div.bottom {
+        background-color: white;
+        border-radius: 20px;
+        
+        margin: 100px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    div.suvs {
+        background-color: hsl(184, 100%, 22%);
+        border-radius: 10px;
+        width: auto;
+        padding-top: 60px;
+    }
+    
+    div.luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 10px;
+        width: auto;
+        padding-top: 60px;
+}
+footer {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+}
